@@ -785,4 +785,107 @@ body {
     border-radius: 50%;
 }
 
-/* Box model style codes */
+/* Box model style codes end */
+
+/* color and background color style codes */
+
+.text-color-green {
+    color: #1e7d1e;
+}
+.text-color-lightgreen {
+    color: #2dcd2d;
+}
+.text-color-blue {
+    color: #1d60de;
+}
+.text-color-lightblue {
+    color: #4cc9ff;
+}
+.text-color-purple {
+    color: #820e96;
+}
+.text-color-yellow {
+    color: #ffff16;
+}
+.text-color-orange {
+    color: #ff9b30;
+}
+.text-color-red {
+    color: #ff3333;
+}
+.text-color-gray {
+    color: #575757;
+}
+.text-color-dark {
+    color: #222222;
+}
+.text-color-light {
+    color: #e4e4e4;
+}
+.bg-color-green {
+    background-color: #1e7d1e;
+}
+.bg-color-lightgreen {
+    background-color: #2dcd2d;
+}
+.bg-color-blue {
+    background-color: #1d60de;
+}
+.bg-color-lightblue {
+    background-color: #4cc9ff;
+}
+.bg-color-purple {
+    background-color: #820e96;
+}
+.bg-color-yellow {
+    background-color: #ffff16;
+}
+.bg-color-orange {
+    background-color: #ff9b30;
+}
+.bg-color-red {
+    color: #ff3333;
+}
+.bg-color-gray {
+    background-color: #575757;
+}
+.bg-color-dark {
+    background-color: #222222;
+}
+.bg-color-light {
+    background-color: #e4e4e4;
+}
+.bg-gradient-green {
+    background: linear-gradient(to top, #1e7d1e,#36dc36);
+}
+.bg-gradient-lightgreen {
+    background: linear-gradient(to top, #2dcd2d,#3eff3e);
+}
+.bg-gradient-blue {
+    background: linear-gradient(to top, #1d60de,#357cff);
+}
+.bg-gradient-lightblue {
+    background: linear-gradient(to top, #4cc9ff,#7dd8ff);
+}
+.bg-gradient-purple {
+    background: linear-gradient(to top, #820e96,#af18ca);
+}
+.bg-gradient-yellow {
+    background: linear-gradient(to top, #ffff16,#ffff76);
+}
+.bg-gradient-orange {
+    background: linear-gradient(to top, #ff9b30,#ffb260);
+}
+.bg-gradient-red {
+    background: linear-gradient(to top, #ff3333,#ff4b4b);
+}
+.bg-gradient-gray {
+    background: linear-gradient(to top, #575757,#929292);
+}
+.bg-gradient-dark {
+    background: linear-gradient(to top, #222222,#404040);
+}
+.bg-gradient-light {
+    background: linear-gradient(to top, #e4e4e4,#ffffff);
+}
+/* color and background color style codes */
