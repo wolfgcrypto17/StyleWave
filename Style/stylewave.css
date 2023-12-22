@@ -1635,3 +1635,47 @@ body {
 }
 
 /* filter styles code */
+
+/* link styles code */
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.link-green {
+    color: #1e7d1e;
+}
+.link-lightgreen {
+    color: #2dcd2d;
+}
+.link-blue {
+    color: #1d60de;
+}
+.link-lightblue {
+    color: #4cc9ff;
+}
+.link-purple {
+    color: #820e96;
+}
+.link-yellow {
+    color: #ffff16;
+}
+.link-orange {
+    color: #ff9b30;
+}
+.link-red {
+    color: #ff3333;
+}
+.link-gray {
+    color: #575757;
+}
+.link-dark {
+    color: #222222;
+}
+.link-light {
+    color: #e4e4e4;
+}
+
+/* link styles code */
