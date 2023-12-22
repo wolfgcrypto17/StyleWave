@@ -1,11 +1,4 @@
-body {
-    margin: 0px;
-}
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    transition: 0.5s;
-}
+/* All rights to StyleWave are reserved by Mohammad Hossein Anabarlou (Mehrab Anbarlou).
 
 /* Width and height style codes */
 
@@ -1638,10 +1631,10 @@ body {
 
 /* link styles code */
 
-a {
+.link-green , .link-lightgreen , .link-blue , .link-lightblue , .link-purple , .link-yellow , .link-orange , .link-red , .link-gray , .link-dark , .link-light {
     text-decoration: none;
 }
-a:hover {
+.link-green:hover .link-lightgreen:hover , .link-blue:hover , .link-lightblue:hover , .link-purple:hover , .link-yellow:hover , .link-orange:hover , .link-red:hover , .link-gray:hover , .link-dark:hover , .link-light:hover{
     text-decoration: underline;
 }
 .link-green {
@@ -1678,4 +1671,18 @@ a:hover {
     color: #e4e4e4;
 }
 
-/* link styles code */
+/* link styles code end*/
+
+/* box-sizing styles code */
+
+.box-border {
+    box-sizing: border-box;
+}
+.box-content {
+    box-sizing: content-box;
+}
+
+/* box sizing styles code end */
+
+/* Copyright
+(c) 2023 Mohammad Hossein Anbarlou (Mehrab Anbarlou) */
