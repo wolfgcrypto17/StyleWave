@@ -1487,3 +1487,50 @@ body {
 }
 
 /* float styles code end */
+
+/* text styles code */
+
+.text-size-0 {
+    font-size: 0rem;
+}
+.text-size-1 {
+    font-size: 1rem;
+}
+.text-size-2 {
+    font-size: 1.5rem;
+}
+.text-size-3 {
+    font-size: 2rem;
+}
+.text-size-4 {
+    font-size: 2.5rem;
+}
+.text-size-5 {
+    font-size: 3rem;
+}
+.text-size-6 {
+    font-size: 3.5rem;
+}
+.text-weight-light {
+    font-weight: lighter;
+}
+.text-weight-normal {
+    font-weight: normal;
+}
+.text-weight-bold {
+    font-weight: bold;
+}
+.text-weight-bolder {
+    font-weight: bolder;
+}
+.text-style-normal {
+    font-style: normal;
+}
+.text-style-italic {
+    font-style: italic;
+}
+.text-style-oblique {
+    font-style: oblique;
+}
+
+/* text styles code end */
