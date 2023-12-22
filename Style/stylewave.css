@@ -1096,6 +1096,27 @@ body {
 .left-100 {
     left: 100%;
 }
+.z-index-0 {
+    z-index: 0;
+}
+.z-index-1 {
+    z-index: 1;
+}
+.z-index-2 {
+    z-index: 2;
+}
+.z-index-3 {
+    z-index: 3;
+}
+.z-index-4 {
+    z-index: 4;
+}
+.z-index-5 {
+    z-index: 5;
+}
+.z-index-6 {
+    z-index: 6;
+}
 .overflow-auto {
     overflow: auto;
 }
@@ -1534,3 +1555,83 @@ body {
 }
 
 /* text styles code end */
+
+/* filter styles code */
+
+.shadow-sm {
+    box-shadow: 0px 0.5px 1rem #2222222f;
+}
+.shadow-reg {
+    box-shadow: 0px 0.5px 1.5rem #2222226d;
+}
+.shadow-lg {
+    box-shadow: 0px 0.5px 2rem #222222be;
+}
+.blur-sm {
+    filter: blur(1px);
+}
+.blur-reg {
+    filter: blur(2px);
+}
+.blur-lg {
+    filter: blur(3px);
+}
+.brightness-sm {
+    filter: brightness(25%);
+}
+.brightness-normal {
+    filter: brightness(100%);
+}
+.brightness-lg {
+    filter: brightness(125%);
+}
+.brightness-xlg {
+    filter: brightness(150%);
+}
+.brightness-2xlg {
+    filter: brightness(175%);
+}
+.brightness-3xlg {
+    filter: brightness(200%);
+}
+.opacity-0 {
+    opacity: 0%;
+}
+.opacity-10 {
+    opacity: 10%;
+}
+.opacity-20 {
+    opacity: 20%;
+}
+.opacity-25 {
+    opacity: 25%;
+}
+.opacity-30 {
+    opacity: 30%;
+}
+.opacity-40 {
+    opacity: 40%;
+}
+.opacity-50 {
+    opacity: 50%;
+}
+.opacity-60 {
+    opacity: 60%;
+}
+.opactiy-70 {
+    opacity: 70%;
+}
+.opacity-75 {
+    opacity: 75%;
+}
+.opacity-80 {
+    opacity: 80%;
+}
+.opacity-90 {
+    opacity: 90%;
+}
+.opacity-100 {
+    opacity: 100%;
+}
+
+/* filter styles code */
