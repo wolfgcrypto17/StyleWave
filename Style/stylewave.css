@@ -1472,4 +1472,18 @@ body {
     align-self: baseline;
 }
 
-/* flexbox styles code */
+/* flexbox styles code end */
+
+/* float styles code */
+
+.float-none {
+    float: none;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+/* float styles code end */
