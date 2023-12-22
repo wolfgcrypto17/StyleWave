@@ -1338,4 +1338,138 @@ body {
     background-color: #a1a1a1;
 }
 
-/*  buttons styles code */
+/* buttons styles code end */
+
+/* flexbox styles code */
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-row-rev {
+    flex-direction: row-reverse;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-right {
+    justify-content: right;
+}
+.justify-content-left {
+    justify-content: left;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.align-items-start {
+    align-items: start;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-end {
+    align-items: end;
+}
+.align-items-stretch {
+    align-items: stretch;
+}
+.align-items-baseline {
+    align-items: baseline;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+.align-content-start {
+    align-content: flex-start;
+}
+.align-content-center {
+    align-content: center;
+}
+.align-content-end {
+    align-content: flex-end;
+}
+.align-content-stretch {
+    align-content: stretch;
+}
+.align-content-baseline {
+    align-content: baseline;
+}
+.align-content-between {
+    align-content: space-between;
+}
+.align-content-around {
+    align-content: space-around;
+}
+.align-content-evenly {
+    align-content: space-evenly;
+}
+.order-0 {
+    order: 0;
+}
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
+.order-4 {
+    order: 4;
+}
+.order-5 {
+    order: 5;
+}
+.grow-0 {
+    flex-grow: 0;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.grow-2 {
+    flex-grow: 2;
+}
+.grow-3 {
+    flex-grow: 3;
+}
+.shrink-1 {
+    flex-shrink: 1;
+}
+.shrink-2 {
+    flex-shrink: 2;
+}
+.shrink-3 {
+    flex-shrink: 3;
+}
+.align-self-auto {
+    align-self: auto;
+}
+.align-self-start {
+    align-self: flex-start;
+}
+.align-self-center {
+    align-self: center;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+.align-self-stretch {
+    align-self: stretch;
+}
+.align-self-baseline {
+    align-self: baseline;
+}
+
+/* flexbox styles code */
