@@ -1684,5 +1684,178 @@
 
 /* box sizing styles code end */
 
+/* css animations styles code */
+
+.element-duration-none {
+    animation-duration: 0s;
+}
+.element-duration-little {
+    animation-duration: 0.8s;
+}
+.element-duration-normal {
+    animation-duration: 2s;
+}
+.element-duration-big {
+    animation-duration: 4s;
+}
+.element-iteration-none {
+    animation-iteration-count: 0;
+}
+.element-iteration-one {
+    animation-iteration-count: 1;
+}
+.element-iteration-two {
+    animation-iteration-count: 2;
+}
+.element-iteration-three {
+    animation-iteration-count: 3;
+}
+.element-iteration-infinite {
+    animation-iteration-count: infinite;
+}
+.element-delay-0 {
+    animation-delay: 0s;
+}
+.element-delay-1 {
+    animation-delay: 2s;
+}
+.element-delay-2 {
+    animation-delay: 4s;
+}
+.element-delay-3 {
+    animation-delay: 6s;
+}
+
+@keyframes loadingAnimationLight {
+    0% {
+        border-color: #5757570c;
+        border-right-color: #222222;
+        
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #5757570c;
+        border-right-color: #222222;
+    }
+}
+.loading-element-light {
+    width: 240px;
+    height: 240px;
+    background: transparent;
+    border-radius: 50%;
+    border: 45px solid transparent;
+}
+
+@keyframes loadingAnimationDark {
+    0% {
+        border-color: #57575751;
+        border-right-color: #e4e4e4;
+    }
+    100% {
+        transform: rotate(360deg);
+        border-color: #57575751;
+        border-right-color: #e4e4e4;
+    }
+}
+.loading-element-dark {
+    width: 240px;
+    height: 240px;
+    background: transparent;
+    border-radius: 50%;
+    border: 45px solid transparent;
+}
+
+@keyframes rotateByDeg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.element-rotate {
+    animation-name: rotateByDeg;
+}
+
+@keyframes rotateByY-Axis {
+    0% {
+        transform: rotate3d(0,0,0,0deg);
+    }
+    100% {
+        transform: rotate3d(0,1,0,360deg);
+    }
+}
+.element-rotate-y {
+    animation-name: rotateByY-Axis;
+}
+
+@keyframes rotateByX-Axis {
+    0% {
+        transform: rotate3d(0,0,0,0deg);
+    }
+    100% {
+        transform: rotate3d(1,0,0,360deg);
+    }
+}
+.element-rotate-x {
+    animation-name: rotateByX-Axis;
+}
+
+@keyframes rotate3D {
+    0% {
+        transform: rotate3d(0,0,0,360deg);
+    }
+    100% {
+        transform: rotate3d(1,1,1,360deg);
+    }
+}
+.element-rotate-3d {
+    animation-name: rotate3D;
+}
+
+@keyframes rotate2D {
+    0% {
+        transform: rotate3d(0,0,0,360deg);
+    }
+    100% {
+        transform: rotate3d(1,1,0,360deg);
+    }
+}
+.element-rotate-2d {
+    animation-name: rotate2D;
+}
+
+@keyframes scaleBigger {
+    0% {
+        transform: scale(0,0);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.element-scale-bigger {
+    animation-name: scaleUpper;
+}
+.element-scale-bigger-hover:hover {
+    transform: scale(1.1,1.1);
+}
+
+@keyframes scaleSmaller {
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(0.9,0.9);
+    }
+}
+.element-scale-smaller {
+    animation-name: scaleSmaller;
+}
+.element-scale-smaller-hover:hover {
+    transform: scale(0.9,0.9);
+}
+
+/* css animations styles code end */
+
 /* Copyright
 (c) 2023 Mohammad Hossein Anbarlou (Mehrab Anbarlou) */
