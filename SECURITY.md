@@ -1,3 +1,5 @@
+**This project is under the copyright of Mohammad Hossein Anbarlou (Mehrab Anbarlou).**
+
 # Security Policy
 
 ## Supported Versions
@@ -27,3 +29,5 @@ If you discover a security vulnerability within this project, please follow thes
 4. **Cooperation:** If the vulnerability is accepted, we may request further information or coordinate a resolution.
 
 We take all security concerns seriously. Thank you for your efforts in responsibly disclosing any security issues.
+
+**Copyright (c) 2023 Mohammad Hossein Anbarlou (Mehrab Anbarlou)**
