@@ -15,8 +15,8 @@ Click <a href="https://github.com/Mehrabios/StyleWave/releases/tag/v0.1.0">Here<
 
 Ways to find me on Internet :
 
-Telegram : t.me/Mehrabios
-Discord_ID : mehrab_10
+Telegram : t.me/Mehrabios<br>
+Discord_ID : mehrab_10<br>
 Github : github.com/Mehrabios
 
 **Copyright
