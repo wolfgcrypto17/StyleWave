@@ -1857,5 +1857,118 @@
 
 /* css animations styles code end */
 
+/* input styles code */
+
+.outline-none {
+    outline: none;
+}
+.outline-auto {
+    outline: auto;
+}
+.input {
+    width: 100%;
+    display: block;
+    outline: none;
+    border: 2px solid #48484851;
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 8px;
+    background: transparent;
+}
+.input-green:focus {
+    border: 2px solid #1e7d1e;
+    box-shadow: 0px 0.5px 8px #1e7d1ec5;
+}
+.input-lightgreen:focus {
+    border: 2px solid #2dcd2d;
+    box-shadow: 0px 0.5px 8px #2dcd2dc5;
+}
+.input-blue:focus {
+    border: 2px solid #1d61de;
+    box-shadow: 0px 0.5px 8px #1d61dec5;
+}
+.input-lightblue:focus {
+    border: 2px solid #4cc9ff;
+    box-shadow: 0px 0.5px 8px #4cc9ffc5;
+}
+.input-purple:focus {
+    border: 2px solid #820e96;
+    box-shadow: 0px 0.5px 8px #820e96c5;
+}
+.input-yellow:focus {
+    border: 2px solid #ffff16;
+    box-shadow: 0px 0.5px 8px #d4d410c5;
+}
+.input-orange:focus {
+    border: 2px solid #ff9b30;
+    box-shadow: 0px 0.5px 8px #ff9b30c5;
+}
+.input-red:focus {
+    border: 2px solid #ff3333;
+    box-shadow: 0px 0.5px 8px #ff3333c5;
+}
+.input-gray {
+    border: 2px solid #8a8a8a;
+    box-shadow: 0px 0.5px 8px #8a8a8ac5;
+}
+.input-dark:focus {
+    border: 2px solid #3b3b3b;
+    box-shadow: 0px 0.5px 8px #3b3b3bc5;
+}
+.input-light:focus {
+    border: 2px solid #e4e4e4;
+    box-shadow: 0px 0.5px 8px #e4e4e4c5;
+}
+.input-bottom {
+    width: 100%;
+    display: block;
+    outline: none;
+    border: 2px solid transparent;
+    border-bottom-color: #48484851;
+    font-size: 1rem;
+    padding: 8px;
+    background: transparent;
+}
+.input-bottom-green:focus {
+    border-bottom-color: #1e7d1e;
+}
+.input-bottom-lightgreen:focus {
+    border-bottom-color: #2dcd2d;
+}
+.input-bottom-blue:focus {
+    border-bottom-color: #1d61de;
+}
+.input-bottom-lightblue:focus {
+    border-bottom-color: #4cc9ff;
+}
+.input-bottom-purple:focus {
+    border-bottom-color: #820e96;
+}
+.input-bottom-yellow:focus {
+    border-bottom-color: #ffff16;
+}
+.input-bottom-orange:focus {
+    border-bottom-color: #ff9b30;
+}
+.input-bottom-red:focus {
+    border-bottom-color: #ff3333;
+}
+.input-bottom-gray:focus {
+    border-bottom-color: #575757;
+}
+.input-bottom-dark:focus {
+    border-bottom-color: #222222;
+}
+.input-bottom-lightblue:focus {
+    border-bottom-color: #e4e4e4;
+}
+.label {
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+}
+
+/* input styles code end */
+
 /* Copyright
 (c) 2023 Mohammad Hossein Anbarlou (Mehrab Anbarlou) */
