@@ -13,5 +13,11 @@ If you find a bug in the StyleWave library, please let me know in Telegram or Gi
 Last Version of StyleWave : V 0.1.0 (Alpha Release)<br>
 Click <a href="https://github.com/Mehrabios/StyleWave/releases/tag/v0.1.0">Here</a> to view and download the latest version.
 
+Ways to find me on Internet :
+
+Telegram : t.me/Mehrabios
+Discord_ID : mehrab_10
+Github : github.com/Mehrabios
+
 **Copyright
 (c) 2023 Mohammad Hossein Anbarlou (Mehrab Anbarlou)**
