@@ -1,12 +1,12 @@
-name: "CodeQL"
+name: CodeQL
 
 on:
   push:
     branches:
-      - "main"
+      - main
   pull_request:
     branches:
-      - "main"
+      - main
 
 jobs:
   analyze:
@@ -14,16 +14,21 @@ jobs:
 
     strategy:
       matrix:
-        language: ["javascript", "css"]
+        language: [javascript]
 
     steps:
-      - name: "Checkout repository"
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: "Initialize CodeQL"
-        uses: github/codeql-action/init@v1
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
         with:
           languages: ${{ matrix.language }}
 
-      - name: "Run CodeQL analysis"
-        uses: github/codeql-action/analyze@v1
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v2
+
+      - name: Analyze
+        uses: github/codeql-action/analyze@v2
+        with:
+          query: path/to/your/query.ql
