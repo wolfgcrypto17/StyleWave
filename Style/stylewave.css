@@ -1962,6 +1962,53 @@
 .input-bottom-lightblue:focus {
     border-bottom-color: #e4e4e4;
 }
+.checkbox-green:checked {
+    accent-color: #1e7d1e;
+    box-shadow: 0px 0.5px 8px #1e7d1ec5;
+}
+.checkbox-lightgreen:checked {
+    accent-color: #2dcd2d;
+    box-shadow: 0px 0.5px 8px #2dcd2dc5;
+}
+.checkbox-blue:checked {
+    accent-color: #1d61de;
+    box-shadow: 0px 0.5px 8px #1d61dec5;
+}
+.checkbox-lightblue:checked {
+    accent-color: #4cc9ff;
+    box-shadow: 0px 0.5px 8px #4cc9ffc5;
+}
+.checkbox-purple:checked {
+    accent-color: #820e96;
+    box-shadow: 0px 0.5px 8px #820e96c5;
+}
+.checkbox-yellow:checked {
+    accent-color: #ffff16;
+    box-shadow: 0px 0.5px 8px #ffff16c5;
+}
+.checkbox-orange:checked {
+    accent-color: #ff9b30;
+    box-shadow: 0px 0.5px 8px #ff9b30c5;
+}
+.checkbox-red:checked {
+    accent-color: #ff3333;
+    box-shadow: 0px 0.5px 8px #ff3333c5;
+}
+.checkbox-gray:checked {
+    accent-color: #575757;
+    box-shadow: 0px 0.5px 8px #575757c5;
+}
+.checkbox-dark:checked {
+    accent-color: #222222;
+    box-shadow: 0px 0.5px 8px #222222c5;
+}
+.checkbox-light:checked {
+    accent-color: #e4e4e4;
+    box-shadow: 0px 0.5px 8px #e4e4e4c5;
+}
+.text-input {
+    font-size: 1rem;
+}
 .label {
     width: 100%;
     display: block;
