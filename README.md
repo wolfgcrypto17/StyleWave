@@ -10,8 +10,8 @@ Currently, my goal in developing this project is to develop CSS styles, but in f
 
 If you find a bug in the StyleWave library, please let me know in Telegram or GitHub.
 
-Last Version of StyleWave : V 0.1.0 (Alpha Release)<br>
-Click <a href="https://github.com/Mehrabios/StyleWave/releases/tag/v0.1.0">Here</a> to view and download the latest version.
+Last Version of StyleWave : V 0.2.0 (Alpha Release)<br>
+Click <a href="https://github.com/Mehrabios/StyleWave/releases/tag/v0.2.0">Here</a> to view and download the latest version.
 
 Ways to find me on Internet :
 
